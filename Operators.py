@@ -15,7 +15,6 @@ Example a + b -> a,b are operands and +  is the operator
 """
 Types of Operators in python
 
-
 Arithmetic Operators
 Comparison Operators
 logical operators

@@ -34,8 +34,6 @@ String, range, tuples ...ect
 
 """
 
-
-
 #examples
 # for i in range(1,6):
 #     print(i)
@@ -83,22 +81,22 @@ for out_var in outer_sequence:
 
 #program to print the * in pyramid style
 #prints the stars in odd numbers like 1,3,5 ...etc
-num = int(input("Enter a number: "))
-for i in range(1, num + 1):
-    for space in range(1, (num-i)+1):
-        print(" ", end = " ")
-    for col in range(1, 2*i):
-        print("*", end = " ")
-    print()
-
-#prints the stars in even numbers like 2,4, 6 ..etc
-num = int(input("Enter a number: "))
-for i in range(1, num + 1):
-    for space in range(1, (num-i)+1):
-        print(" ", end = " ")
-    for col in range(2, 2*i):
-        print("*", end = " ")
-    print()
+# num = int(input("Enter a number: "))
+# for i in range(1, num + 1):
+#     for space in range(1, (num-i)+1):
+#         print(" ", end = " ")
+#     for col in range(1, 2*i):
+#         print("*", end = " ")
+#     print()
+#
+# #prints the stars in even numbers like 2,4, 6 ..etc
+# num = int(input("Enter a number: "))
+# for i in range(1, num + 1):
+#     for space in range(1, (num-i)+1):
+#         print(" ", end = " ")
+#     for col in range(2, 2*i):
+#         print("*", end = " ")
+#     print()
 
 #prints the stars in like real numbers 1,2,3,4,...etc
 # for i in range(1, num + 1):
@@ -126,16 +124,44 @@ for i in range(1, num + 1):
 # 3. repeat code as long as the condition is true -> while loop
 
 #how to skip or break the loops
+# 1. by using the break keyword we can break the loop
+# 2. by using the continue keyword we can skip the current iteration
 
+# for i in range(1, 10):
+#     if i == 4:
+#         continue
+#     if i == 7:
+#         break
+#     print(i)
 
+# loops are also used to search in sequence
+# fruitss = ["apple", "banana", "cherry", "orange", "strawberry","peach"]
+# targett = "orange"
+#
+# for fruitt in fruitss:
+#     if fruitt == targett:
+#         print(f"{fruitt} found it..!")
+#         break
 
+# #filter or extract the data from the elements
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20]
+# evens = []
+# for num in numbers:
+#     if num % 2 == 0:
+#         evens.append(num)
+# print(evens)
 
+# write a program for finding the factorial of a number
 
+fact_num = int(input("Enter the number to fid the factorial : "))
 
+factorial = 1
+# 1 is a common number in any factorial so factorial is staring with 1
 
-
-
-
+#iterate till the given number
+for i in range(1, fact_num + 1):
+    factorial = factorial * i
+print(f"The factorial of {fact_num} is {factorial}")
 
 
 

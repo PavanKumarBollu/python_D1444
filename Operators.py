@@ -135,18 +135,18 @@ the values to the same variable instead of creating new variable
 """
 
 #assignment operators
-print("assignment operators")
-x = 25
-print(x)
-x+=2 # X = X + 2 (Increment -> x += 1 -> x = x + 1 Ex : x = 2 -> 3 , 4, 5, ..etc
-print(x)
-x-=2
-print(x)
-x*=2
-print(x)
-x/=3
-print(x)
-print()
+# print("assignment operators")
+# x = 25
+# print(x)
+# x+=2 # X = X + 2 (Increment -> x += 1 -> x = x + 1 Ex : x = 2 -> 3 , 4, 5, ..etc
+# print(x)
+# x-=2
+# print(x)
+# x*=2
+# print(x)
+# x/=3
+# print(x)
+# print()
 
 #Membership operators
 
@@ -156,27 +156,27 @@ not in (negated membership)
 
 """
 
-print("Membership operators")
-
-fruits = ["apple", "orange", "banana"]
-print(fruits)
-
-is_avaliable = "Banana" in fruits
-print(is_avaliable)
-
-fruit = "graphs"
-is_not_avaliable =  fruit not in fruits
-print(is_not_avaliable)#True
+# print("Membership operators")
+#
+# fruits = ["apple", "orange", "banana"]
+# print(fruits)
+#
+# is_avaliable = "Banana" in fruits
+# print(is_avaliable)
+#
+# fruit = "graphs"
+# is_not_avaliable =  fruit not in fruits
+# print(is_not_avaliable)#True
 
 
 #Identity Operators
-print(fruit is fruits)#false
-print( fruit is not fruits)#true
+# print(fruit is fruits)#false
+# print( fruit is not fruits)#true
 
 
 
 # Bitwise Operators
-res = 2 & 5 # 2 -> 0010 , 5 -> 0101  -> 0000 -> 0
+# res = 2 & 5 # 2 -> 0010 , 5 -> 0101  -> 0000 -> 0
 
 """
 2 -> 0 0 1 0 
@@ -184,25 +184,25 @@ res = 2 & 5 # 2 -> 0010 , 5 -> 0101  -> 0000 -> 0
 a -> 0 0 0 0 -> 0 
 """
 
-print(res) #0 AND
-print(2 | 5) #7 OR
-"""
-2 -> 0 0 1 0 
-5 -> 0 1 0 1
-a -> 0 1 1 1 -> 7
-"""
-print(2 ^ 5) #7 XOR
-"""
-2 -> 0 0 1 0 
-5 -> 0 1 0 1
-a -> 0 1 1 1 -> 7
+# print(res) #0 AND
+# print(2 | 5) #7 OR
+# """
+# 2 -> 0 0 1 0
+# 5 -> 0 1 0 1
+# a -> 0 1 1 1 -> 7
+# """
+# print(2 ^ 5) #7 XOR
+# """
+# 2 -> 0 0 1 0
+# 5 -> 0 1 0 1
+# a -> 0 1 1 1 -> 7
 """
 
-print(2 << 5) #leftShift
-"""
- 2 ^ 5 -> 2 * 2 ^ 5 -> 64
-"""
-print(2 >> 5) #right shift
-"""
- 2 >> 5 -> 2 / 2 ^ 5 -> 2 / 32 -> 0.0625 -> 0
-"""
+# print(2 << 5) #leftShift
+# """
+#  2 ^ 5 -> 2 * 2 ^ 5 -> 64
+# """
+# print(2 >> 5) #right shift
+# """
+#  2 >> 5 -> 2 / 2 ^ 5 -> 2 / 32 -> 0.0625 -> 0
+# """

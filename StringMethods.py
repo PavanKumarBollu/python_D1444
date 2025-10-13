@@ -96,18 +96,34 @@ methods on strings
 
 # write a program to take the input from the user and remove all the digits in that numbers and print only characters
 
-u_input = input("Enter Anything Here to remove the digits : ")
-
-result = ""
-for char in u_input:
-    if char.isdigit():
-        continue
-    else:
-        result += char
-print(result)
+# u_input = input("Enter Anything Here to remove the digits : ")
+#
+# result = ""
+# for char in u_input:
+#     if char.isdigit():
+#         continue
+#     else:
+#         result += char
+# print(result)
 
 #task ->
 # write a program to take the input from the user and remove all the characters in that string and print only digits
+# u_input = input("Enter a Anything here : ")
+#
+# characters = ""
+# digits = ""
+#
+# for char in u_input:
+#     if char.isdigit():
+#         digits += char
+#     elif char.isalpha():
+#         characters += char
+#     else:
+#         continue
+# print(f"total charecters present the given string {characters}")
+# print(f"total digits present the given string {digits}" )
+
+
 
 
 
